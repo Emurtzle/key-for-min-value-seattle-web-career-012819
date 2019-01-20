@@ -3,7 +3,11 @@
 
 def key_for_min_value(name_hash)
   min = 99999
+  min_name
   name_hash.each do |name, int|
-    return name
+    if int < min
+      min = int
+      min_name = name
   end
+  name
 end
