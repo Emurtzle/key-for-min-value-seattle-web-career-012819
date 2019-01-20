@@ -9,7 +9,6 @@ def key_for_min_value(name_hash)
     if int < min
       index = name
     end
-    counter += 1
   end
-  name_hash[0]
+  :index
 end
