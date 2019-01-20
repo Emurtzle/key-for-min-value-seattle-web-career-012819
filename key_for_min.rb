@@ -3,12 +3,12 @@
 
 def key_for_min_value(name_hash)
   min = 99999
-  x
+  x = ""
   name_hash.each do |name, age|
     if age < min
       min = age
       x = name
     end
   end
-  x
+  name_hash[x]
 end
